@@ -13,7 +13,7 @@ st.set_page_config(
 )
 
 # Set the path to your model
-MODEL_PATH = r"C:\Users\mithu\Desktop\FAKE_NEWS_DETECTION\fake_news_cnn_model_V2.h5"
+MODEL_PATH = r"fake_news_cnn_model_V2.h5"
 
 # Load the trained model with error handling
 @st.cache_resource
